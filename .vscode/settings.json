@@ -1,0 +1,5 @@
+{
+    "markdown.marp.themes": [
+        "./themes/academic-sustech.css",    //写自己想用的css文件名就可以了
+      ]
+}

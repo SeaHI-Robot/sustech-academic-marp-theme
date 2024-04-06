@@ -1,0 +1,99 @@
+/* @theme academic-sustech */
+@charset "UTF-8";
+@import 'gaia';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+  --color-background: #fff;
+  --color-foreground: #0d2023;
+  --color-highlight: #dc7625;
+}
+
+section {
+  background-image: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 28px;
+}
+
+/* https://github.com/marp-team/marpit/issues/271 */
+section::after {
+  font-weight: 800;
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+ul ul {
+  font-size: 0.85em;
+}
+
+section.lead h1 {
+  color: #14363b;
+  text-align: left;
+}
+section.lead h1 strong {
+  -webkit-text-stroke: 1px #14363b;
+}
+section.lead h2 {
+  color: #14363b;
+  text-align: left;
+}
+section.lead h2 strong {
+  -webkit-text-stroke: 1px #14363b;
+}
+section.lead h3 {
+  color: #14363b;
+  text-align: left;
+}
+section.lead h3 strong {
+  -webkit-text-stroke: 1px #14363b;
+}
+section.lead h4 {
+  color: #14363b;
+  text-align: left;
+}
+section.lead h4 strong {
+  -webkit-text-stroke: 1px #14363b;
+}
+section.lead h5 {
+  color: #14363b;
+  text-align: left;
+}
+section.lead h5 strong {
+  -webkit-text-stroke: 1px #14363b;
+}
+section.lead p {
+  text-align: right;
+}
+
+header {
+  background-color: #14363b;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+blockquote {
+  max-width: 85%;
+  /* border-top: 0.01em dashed #14363b; */
+  font-size: 50%;
+  position: absolute;
+  bottom: 10px;
+}
+blockquote::before {
+  content: "";
+}
+blockquote::after {
+  content: "";
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
