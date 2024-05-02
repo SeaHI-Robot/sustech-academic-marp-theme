@@ -1,0 +1,131 @@
+/* @theme academic-sustech-2 */
+
+@charset "UTF-8";
+/* @import 'default'; */
+@import 'uncover';
+
+
+/* @import-theme 'default'; */
+:root {
+  --color-background: #fff;
+  --color-foreground: #0d2023;
+  --color-highlight: #dc7625;
+}
+
+section {
+  background-image: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 28px;
+}
+
+/* https://github.com/marp-team/marpit/issues/271 */
+section::after {
+  font-weight: 800;
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+ul ul {
+  font-size: 0.85em;
+}
+
+h1 {
+text-align:left;
+color: #dc7625;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size:50px;
+line-height: 25px;
+}
+
+h2 {
+text-align:left;
+margin-top: 12px;
+font-size: 30px;
+line-height: 25px;
+margin-bottom: 15px;
+}
+ 
+h3 {
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 27px;
+  line-height: 25px;
+  }
+
+h4 {
+  color: #14363b;
+  text-align:left;
+  }
+
+p {
+  text-align:left;
+  font-size: 21px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  /* margin-left: 30px; */
+  letter-spacing: 1px;
+  /* text-indent: 50px; */
+}
+
+
+
+
+header {
+  left: 57px;
+  right: 50px;
+  top: 15px;
+  height: 50px;
+  /* background-image: url("./header.png"); 
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background-size: 200px; */
+  text-align:left;
+  color: #dc7625;
+  font-weight: bold;
+  font-size:44px;
+}
+
+
+footer {
+  height: auto;
+  font-size:24px;
+  border-color: #dc7625;
+  border-width: 4px;
+  border-style: solid;
+  font-weight: bold;
+  list-style-type: square;
+  content: 'shsh';
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: rgb(37, 64, 97);
+  /* display:inline-block; */
+}
+
+blockquote {
+  max-width: 85%;
+  /* border-top: 0.01em dashed #14363b; */
+  font-size: 50%;
+  position: absolute;
+  bottom: 10px;
+}
+
+blockquote::before {
+  content: "";
+}
+blockquote::after {
+  content: "";
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}

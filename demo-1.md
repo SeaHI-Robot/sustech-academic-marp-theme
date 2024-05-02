@@ -1,7 +1,6 @@
 ---
 marp: true
-theme: academic-sustech
-css: themes/academic.css
+theme: academic-sustech-1
 paginate: true
 math: katex
 ---
@@ -12,6 +11,7 @@ math: katex
 
 #### *"每天叫醒我们的不是闹钟,而是中国高教改革的梦想"*
 
+> 
 <br>
 
 <br>
@@ -20,7 +20,7 @@ math: katex
 南方科技大学创校校长
 YYYY/MM/DD
 
-<!-- ![w:300 top right](./images/logo/logo_en.png) -->
+
 
 ---
 
@@ -72,6 +72,7 @@ tokenizer.convert_ids_to_tokens(outputs.logits[0][1:-1].argmax(axis=-1))
 ---
 
 <!-- _header: 公式 -->
+<br>
 
 $$ I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx $$
 

@@ -3,8 +3,9 @@
 # 南方科技大学Marp学术汇报主题
 
 
-
-> Based on ["marp-theme-academic"](https://github.com/kaisugi/marp-theme-academic). 
+> 该仓库包含两个主题，主题一适合简短汇报，主题二适合组会
+> 
+> 借鉴了 https://github.com/kaisugi/marp-theme-academic 和 https://github.com/liyunwei-3558/MyMd2PPT 
 >
 > 
 >
@@ -13,12 +14,22 @@
 
 
 ---
+## 主题一演示效果
 
 
+![](./export/demo-1/0.jpg)
+![](./export/demo-1/1.jpg)
+![](./export/demo-1/2.jpg)
+![](./export/demo-1/3.jpg)
+![](./export/demo-1/4.jpg)
+![](./export/demo-1/5.jpg)
+---
 
-![](./export/png/demo_01.png)
-![](./export/png/demo_02.png)
-![](./export/png/demo_03.png)
-![](./export/png/demo_04.png)
-![](./export/png/demo_05.png)
-![](./export/png/demo_06.png)
+## 主题二演示效果
+![](./export/demo-2/0.jpg)
+![](./export/demo-2/1.jpg)
+![](./export/demo-2/2.jpg)
+![](./export/demo-2/3.jpg)
+![](./export/demo-2/4.jpg)
+![](./export/demo-2/5.jpg)
+![](./export/demo-2/6.jpg)
