@@ -3,17 +3,16 @@
 # 南方科技大学Marp学术汇报主题
 
 
-> 该仓库包含两个主题，主题一适合简短汇报，主题二适合组会
-> 
-> 借鉴了 https://github.com/kaisugi/marp-theme-academic 和 https://github.com/liyunwei-3558/MyMd2PPT 
->
-> 
->
-> If working with vscode-marp-extension, do not delete `.vscode` folder, which clerifies the location of css theme file. / 推荐使用vscode-marp插件作为编辑器，请勿删除`.vscode`文件夹
+- 该仓库包含两个主题，主题一适合简短汇报，主题二适合组会
+
+-  借鉴了 https://github.com/kaisugi/marp-theme-academic 和 https://github.com/liyunwei-3558/MyMd2PPT 
+
+- If working with vscode-marp-extension, do not delete `.vscode` folder, which clerifies the location of css theme file. / 推荐使用vscode-marp插件作为编辑器，请勿删除`.vscode`文件夹
 
 
+<br>
 
----
+
 ## 主题一演示效果
 
 
@@ -23,6 +22,7 @@
 ![](./export/demo-1/3.jpg)
 ![](./export/demo-1/4.jpg)
 ![](./export/demo-1/5.jpg)
+
 ---
 
 ## 主题二演示效果
