@@ -11,7 +11,7 @@ math: katex
 
 #### *"每天叫醒我们的不是闹钟,而是中国高教改革的梦想"*
 
-> 
+
 <br>
 
 <br>
@@ -25,7 +25,7 @@ YYYY/MM/DD
 ---
 
 <!-- _header: 目录 -->
-
+<br>
 <br>
 
 #### 1. 简介
@@ -36,6 +36,7 @@ YYYY/MM/DD
 ---
 
 <!-- _header: 简介 -->
+<br>
 
 - Marp 是一款用于在 **Markdown** 中创建**幻灯片**的软件。
   - 支持基本 Markdown 语法。
@@ -49,6 +50,7 @@ YYYY/MM/DD
 ---
 
 <!-- _header: 代码块 -->
+<br>
 
 ```python
 import torch
@@ -89,6 +91,7 @@ $$
 ---
 
 <!-- _header: 插图 -->
+<br>
 
 1. 首先，右键单击从 [链接](https://www.irasutoya.com/2018/10/blog-post_723.html) 下载图像('kenkyu_woman_seikou.png')。
 2. 在此 Markdown 目录中创建一个名为“images”的目录，并放置您刚刚下载的图片。 现在你已经准备好了。
@@ -96,3 +99,7 @@ $$
 <br>
 
 ![w:300 center](./images/kenkyu_woman_seikou.png)
+
+
+---
+![bg](./images/theme/thanks.png)
